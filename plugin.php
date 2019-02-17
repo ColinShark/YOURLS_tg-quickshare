@@ -22,7 +22,7 @@ function prb_yourls_telegram( $args ) {
     </style>
     <a id="share_tg"
         title="Share via Telegram"
-        onclick="javascript:window.open(this.href,'#tweet_body1', 'menubar=no,toolbar=no,height=1024,width=768,left=100');return false;">Telegram
+        onclick="javascript:window.open(this.href,'#tweet_body1', 'menubar=no,toolbar=no,height=480,width=640,left=100,top=100');return false;">Telegram
     </a>
     <script type="text/javascript">
     // Dynamically update Telegram link
