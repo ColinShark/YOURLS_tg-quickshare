@@ -28,9 +28,10 @@ function prb_yourls_telegram( $args ) {
     // Dynamically update Telegram link
     // when user clicks on the "Share" Action icon, event $('#q1').keypress() is fired, so we'll add to this
       $('#tweet_body').keypress(function(){
+          var tg_text = encodeURIComponent( $('#titlelink').val() );
           var tg_url = encodeURIComponent( $('#copylink').val() );
-          var tg = 'https://telegram.me/share?url=', '+tg_url;
-          $('#share_tg').attr('href', tg);        
+          var tg = 'https://telegram.me/share?url=', +tg_url, '&text=', +tg_text;
+          $('#share_tg').attr('href', tg);
       });
     </script>
     
