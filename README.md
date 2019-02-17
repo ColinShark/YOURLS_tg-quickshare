@@ -1,7 +1,9 @@
 Telegram Quickshare
 ====================
 
-Plugin for [YOURLS](http://yourls.org) `1.7.3`. 
+Plugin for [YOURLS](http://yourls.org) `1.7.3`.
+
+`Compatability with other versions of YOURLS is NOT guaranteed!`
 
 Description
 -----------
