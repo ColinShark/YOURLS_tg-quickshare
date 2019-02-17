@@ -28,7 +28,7 @@ function prb_yourls_telegram( $args ) {
       $('#tweet_body').keypress(function(){
           var tg_text = encodeURIComponent( $('#titlelink').val() );
           var tg_url = encodeURIComponent( $('#copylink').val() );
-          var tg = 'https://telegram.me/share?url='+tg_url+'&text='+tg_text;
+          var tg = 'https://t.me/share?text='+tg_text+'&url='+tg_url;
           $('#share_tg').attr('href', tg);
       });
     </script>
