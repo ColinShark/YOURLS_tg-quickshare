@@ -11,9 +11,9 @@ This is a plugin for YOURLS that adds quick sharing to Telegram.
 
 Installation
 ------------
-1. Download the files from [here](https://git.colinshark.de/ColinShark/yourls_tg-quickshare/archive/master.zip) and unzip it
+1. Download the files from [here (.zip)](https://git.colinshark.de/ColinShark/yourls_tg-quickshare/archive/master.zip) or [here (.tar.gz)](https://git.colinshark.de/ColinShark/yourls_tg-quickshare/archive/master.tar.gz) and unpack it
 2. In `/user/plugins`, create a new folder named `telegram-quickshare`
-3. Drop the `.zip`'s content in the new folder
+3. Drop the archive's content in the new folder
 4. Go to the Plugins administration page ( *eg* `http://sho.rt/admin/plugins.php` ) and activate the plugin
 5. Share to Telegram :D
 
