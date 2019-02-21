@@ -3,8 +3,8 @@
 Plugin Name: Telegram-Quickshare
 Plugin URI: https://git.colinshark.de/ColinShark/yourls_tg-quickshare
 Description: Add Telegram-Quickshare to YOURLS
-Version: 0.2
-Author: Nicolas Neht (ColinShark)
+Version: 1.0
+Author: Nicolas "Colin" Neht
 Author URI: https://colinshark.de
 **/
 yourls_add_action( 'share_links', 'telegram_share' );
