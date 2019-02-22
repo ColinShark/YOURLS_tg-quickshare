@@ -20,7 +20,7 @@ function telegram_share( $args ) {
         background:transparent url("$tg_icon") left center no-repeat;
     }
     </style>
-    <a id="share_tg" title="Share via Telegram" onclick="javascript:window.open(this.href,'#tweet_body1', 'menubar=no,toolbar=no,height=480,width=640,left=100,top=100');return false;">Telegram
+    <a id="share_tg" title="Share via Telegram" onclick="javascript:window.open(this.href,'_self');return false;">Telegram
     </a>
     <script type="text/javascript">
     // Dynamically update Telegram link
@@ -28,7 +28,7 @@ function telegram_share( $args ) {
       $('#tweet_body').keypress(function(){
           var tg_text = encodeURIComponent( $('#titlelink').val() );
           var tg_url = encodeURIComponent( $('#copylink').val() );
-          var tg = 'https://t.me/share/url?url='+tg_url+'&text='+tg_text;
+          var tg = 'tg://msg_url?url='+tg_url+'&text='+tg_text;
           $('#share_tg').attr('href', tg);
       });
     </script>
