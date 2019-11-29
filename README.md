@@ -22,4 +22,4 @@ One more thing...
 I don't really have any PHP Knowledge. The code is mostly copied from [WisseHesNL](https://github.com/WisseHesNL)'s [Whatsapp Quickshare](https://github.com/WisseHesNL/Whatsapp-quickshare) plugin.
 Count this as a Disclaimer :^)
 
-If you do encounter issues, consider shooting me a mail either [here](mailto:colin@colinshark.de) or [here](mailto:nicolas@neht.xyz)
+If you do encounter issues, feel free to open an [issue](https://github.com/ColinTheShark/YOURLS_tg-quickshare/issues/new)
