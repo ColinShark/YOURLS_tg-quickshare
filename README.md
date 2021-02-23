@@ -1,3 +1,9 @@
+# Note on Archival - 23 Feb 2021
+I never intended for this to get any traction *at all* or for this to actually throw errors or not work.
+As I found alternatives to YOURLS, I used that instead. Since I don't plan to fix anything with this (see my disclaimer at the bottom of this ReadMe), I have archived this.
+
+Feel free to fork.
+
 Telegram Quickshare
 ====================
 
